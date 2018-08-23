@@ -1,0 +1,20 @@
+{
+  "name": "diario-ufmg",
+  "version": "0.0.1",
+  "description": "Anotações, resenhas e aprendizados sobre o que vejo no curso de economia na UFMG",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hcavalieri/diario-ufmg"
+  },
+  "author": {
+    "name": "Henrique Cavalieri",
+    "url": "https://henrique.codes"
+  },
+  "scripts": {
+    "dev": "vuepress dev conteudo",
+    "build": "vuepress build conteudo"
+  },
+  "devDependencies": {
+    "vuepress": "^0.14.2"
+  }
+}
