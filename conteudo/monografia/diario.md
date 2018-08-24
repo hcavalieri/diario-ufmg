@@ -37,3 +37,9 @@ Dei um passo atrás e busquei qual é a minha motivação e quais são as pergun
 - Enviei mensagem para um orientador em potencial que seria a pessoa perfeita pro assunto que quero cobrir;
 - Comecei a escrever o diário e joguei tudo nesse site;
 - Formatei melhor minhas hipóteses e meu tema;
+
+## 24.08.18
+
+- Conversei com um professor que eu adoraria que fosse meu orientador e, a princípio, vai rolar!
+  - Ele deu um panorama geral sobre a questão da pecuária e soja na Amazônia e agora cabe a mim caçar referências e entender o que eu quero fazer de fato.
+- Enviei meu tema pelo Moodle de TPE

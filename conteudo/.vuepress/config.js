@@ -44,7 +44,7 @@ module.exports = {
   themeConfig: {
     repo: 'hcavalieri/diario-ufmg',
     repoLabel: 'Contribua :)',
-    docsDir: 'conteudo/docs',
+    docsDir: 'conteudo',
     editLinks: true,
     editLinkText: 'Edite essa página pelo GitHub',
     serviceWorker: {
