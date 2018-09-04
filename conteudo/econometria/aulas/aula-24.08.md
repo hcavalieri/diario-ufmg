@@ -1,5 +1,5 @@
 ---
-title: "Aula 24.08"
+title: "Aula 24.08 (laboratório)"
 ---
 
 # Aula de econometria 24.08
