@@ -16,6 +16,7 @@ const monografiaSidebar = {
     '/monografia/',
     '/monografia/diario',
     '/monografia/bibliografia',
+    '/monografia/tpe',
   ]
 };
 
