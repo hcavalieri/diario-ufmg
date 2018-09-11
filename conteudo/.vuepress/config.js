@@ -28,6 +28,8 @@ const econometriaSidebar = {
   children: [
     '/econometria/',
     '/econometria/aprendendo-r',
+    '/econometria/notacoes',
+    '/econometria/aulas/aula-05.09',
     '/econometria/aulas/aula-24.08',
     '/econometria/aulas/aulas-22.08',
   ]

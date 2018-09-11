@@ -44,6 +44,6 @@ Dei um passo atrás e busquei qual é a minha motivação e quais são as pergun
   - Ele deu um panorama geral sobre a questão da pecuária e soja na Amazônia e agora cabe a mim caçar referências e entender o que eu quero fazer de fato.
 - Enviei meu tema pelo Moodle de TPE
 
-## 03.09.18
+## 03.09.18 e 10.09.18
 
-Faltei a aula do dia 27.08, mas aparentemente não rolou muita coisa nela... No dia 03.09 eu só fui à aula de TPE e fiz [algumas anotações](/monografia/tpe.html#anotacoes-em-sala) de coisas relevantes da aula.
+Faltei a aula do dia 27.08, mas aparentemente não rolou muita coisa nela... Nos dias 03.09 e 10.09 eu só fui à aula de TPE e fiz [algumas anotações](/monografia/tpe.html#anotacoes-em-sala) de coisas relevantes da aula.

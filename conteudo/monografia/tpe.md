@@ -30,6 +30,21 @@ Fiz também umas anotações pra mim mesmo:
 - Ideia: fazer uma justificativa agora no início (assim que eu definir o tema), em que não frago de muito, e outra ao final do semestre com base na pesquisa inicial;
 - Acho que tô no tipo de pesquisa exploratória, mas vale lembrar que a monografia pode ser uma composição de vários tipos de pesquisa
 
+### 10.03.09
+
+Revisão da literatura:
+
+- pode pontuar aspectos teóricos básicos (explicar algo sobre o mercado de terras, por exemplo);
+- cobrir trabalhos empíricos recentes;
+- evitar ficar só no "fulano falava isso, ciclano aquilo", é melhor avaliar questão por questão o que existe na literatura, não se atendo a cortes temporais únicos;
+  - Exemplo: "Na questão do mercado de terras, podemos seguir a ideia X (Fulano, 1940), mas contribuições recentes nos levam à ideia Y (Ciclano, 1980)
+- Provavelmente vou ter que cortar bastante da revisão bibliográfica pra monografia se encaixar no número de páginas limite;
+- Dar peso para aspectos teóricos que me interessam, entrando em detalhes neles, mas apontar outros que existem que não vou cobrir, explicando o porquê dessa escolha;
+- Balancear o uso de fontes indiretas / secundárias (que reduzem autoridade) com citações diretas que não li... Idealmente eu iria na fonte direta, lendo tudo, mas se faltar necessidade, disponibilidade do texto ou tempo, posso citar via outro autor.
+  - Se for da parte central da minha pesquisa e o texto estiver disponível, vá na fonte (no mínimo checar se o texto existe em EN/PT)
+- Posso usar revistas, jornais e companhia só se for para ilustrar um ponto
+  - Exemplo: Usar manchetes de revistas sobre desmatamento na Amazônia
+
 ## Leitura de Guia para elaboração de monografias (...)
 
 **Como citar:** HÜBNER, Maria M. Guia para elaboração de monografias e projetos de dissertação de mestrado e doutorado. São Paulo: Ed. Pioneira/Mackenzie, 1998
