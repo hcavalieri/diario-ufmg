@@ -6,6 +6,8 @@ const inovacaoSidebar = {
     '/economia-inovacao-industrial/introducao',
     '/economia-inovacao-industrial/capitulo-2',
     '/economia-inovacao-industrial/capitulo-3',
+    '/economia-inovacao-industrial/capitulo-4',
+    '/economia-inovacao-industrial/capitulo-5',
   ],
 };
 

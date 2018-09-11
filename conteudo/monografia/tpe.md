@@ -83,3 +83,53 @@ Ainda não terminei de ler a parte sobre as referências bibliográficas porque 
 
 O capítulo 4 cobre projetos de dissertação de mestrado e teses de doutorado, o que não me interessa, mas seria bom eu conseguir esse texto pra terminar do capítulo 5 em diante porque ela cobre a apresentação do trabalho, tempos verbais e pessoa e "momentos da carreira acadêmica" (esse não é tão relevante mas deve ser interessante :smile:)
 :::
+
+## Tarefa de pesquisa de outras monografias
+
+Peguei uma monografia recente de um amigo e peguei as duas primeiras que encontrei na biblioteca pra investigar a estrutura de uma monografia e entregar a tarefa de TPE :smile:
+
+::: tip Lições aprendidas
+- Introdução pode ter só 2 páginas;
+- É legal deixar bem claro o objetivo e problema tratado através de um resumo;
+- Na introdução cabe uma breve explicação da estrutura da monografia;
+- Agradecimento pode ter menos de 10 linhas;
+:::
+
+### A geografia do voto em Belo Horizonte
+
+- **Título:** A geografia do voto em Belo Horizonte
+- **Autor:** João Vítor Leite Rodrigues
+- **Orientadora:** Ana Maria Hermeto
+- **Problema:** "como a desigualdade socioeconômica afeta a competição eleitoral entre os candidatos a vereador"
+- **Hipóteses relacionadas:**
+  - A desigualdade socioeconômica é um aspecto fundamental para o funcionamento do sistema eleitoral e é possível avaliar este impacto através de uma lente geográfica.
+  - Geografia eleitoral traria, portanto, "ganhos analíticos para as ciências sociais" (Leite 2017, pg. 5);
+  - A esfera legislativa municipal importa para pesquisas, assim como o cargo de vereador.
+- **Objetivo da monografia:** "compreender o funcionamento da dinâmica eleitoral nos municípios brasileiros"
+
+### O financiamento para cultura e artes cênicas: casos Brasil e Espanha
+
+- **Título:** O financiamento para cultura e artes cênicas: casos Brasil e Espanha
+- **Autor:** João Fernandes da Luz Moreira
+- **Orientadora:** Ana Flávia Machado
+- **Problema:** "avaliar a importância da participação das entidades públicas na promoção e desenvolvimento de projetos e atividades culturais no Brasil e na Espanha"
+- **Hipóteses relacionadas:**
+  - "Importância da cultura e sua preservação para as sociedades e a humanidade como um todo" (Moreira 2015, pg. 8);
+  - A atuação do Estado é vital para agentes culturais, variando segundo o país em questão;
+  - É possível comparar as políticas e projetos culturais brasileiras com as espanholas, mesmo com suas realidades distintas;
+  - Como Moreira (2015) coloca, por mais que sejam bens "como qualquer outro", bens culturais merecem uma atenção especial por não ser clara a valoração destes produtos;
+  - O valor de um bem cultural é intangível e envolve questões maiores que seus custos de produção.
+- **Objetivo da monografia:** "analisar as políticas para cultura e seus meios de financiamento"
+
+### A indústria de jogos eletrônicos: história, teoria e comparação entre as desenvolvedoras brasileiras e canadenses
+
+- **Título:** A indústria de jogos eletrônicos: história, teoria e comparação entre as desenvolvedoras brasileiras e canadenses
+- **Autor:** Henrique Leandro Fernandes
+- **Orientadora:** Ana Flávia Machado
+- **Problema:** contrastar as indústrias de jogos eletrônicos canadense e brasileira para entender as particularidades desta indústria
+- **Hipóteses relacionadas:**
+  - O ambiente no qual desenvolvedoras independentes estão inseridas é "hostil ao empreendedorismo" (Fernandes, 2014);
+  - A indústria de jogos é uma indústria criativa, com a criatividade como matéria prima principal da produção;
+  - O elevado custo de entrada para o desenvolvimento de jogos para _console_ levam a muitas empresas desenvolvedoras a se voltarem para o mercado de jogos para dispositivos móveis (_mobile_);
+  - O mercado de _hardware_ para jogos é oligopolizado e consolidado, enquanto o de PC é mais pulverizado, afetando de maneiras distintas a dinâmica de preços de cada setor.
+- **Objetivo da monografia:** explorar o campo ainda inexplorado da economia da indústria de jogos eletrônicos
