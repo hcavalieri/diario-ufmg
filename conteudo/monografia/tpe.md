@@ -45,6 +45,33 @@ Revisão da literatura:
 - Posso usar revistas, jornais e companhia só se for para ilustrar um ponto
   - Exemplo: Usar manchetes de revistas sobre desmatamento na Amazônia
 
+### 17.03.09
+
+Estrutura do projeto de monografia:
+1. Introdução (_o quê_): 2 páginas / 800 palavras - introduzir de maneira "leve" o que vai ser abordado
+1. Justificativa (_por quê_): 4 a 5 páginas / 1600 a 2000 palavras - **parte mais importante** do projeto
+  1. Problema de pesquisa - curto
+  1. Hipóteses
+1. Objetivos (_para quê_): 1 página / 400 palavras - altamente relacionado ao tema
+  1. Objetivos gerais
+  1. Objetivos específicos
+1. Metodologia (_como_): 2 a 3 páginas / 800 a 1200 palavras
+  1. 1 página da metodologia deve ser dedicada à estrutura final da monografia
+1. Cronograma (_quando_) - tabela que ainda vai ser detalhada em outra aula
+1. Bibliografia - sem mínimo ou máximo de palavras
+1. Anexos - opcional
+
+#### Introdução e título:
+
+- sintetizar o conteúdo do trabalho, com uma contextualizada histórica e teórica do tema;
+- Título deve "setar" as expectativas de leitores.
+
+#### Justificativa
+
+- Hora de mostrar que leu a bibliografia _relevante_ e refletir sobre o porquê da pesquisa
+- Inclui uma síntese da revisão bibliográfica
+- Faz uma resenha da bibliografia, não um resumo (resenha é um "resumo ponderado", com as opiniões de quem escreve)
+
 ## Leitura de Guia para elaboração de monografias (...)
 
 **Como citar:** HÜBNER, Maria M. Guia para elaboração de monografias e projetos de dissertação de mestrado e doutorado. São Paulo: Ed. Pioneira/Mackenzie, 1998
