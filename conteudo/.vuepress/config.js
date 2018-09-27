@@ -8,6 +8,7 @@ const inovacaoSidebar = {
     '/economia-inovacao-industrial/capitulo-3',
     '/economia-inovacao-industrial/capitulo-4',
     '/economia-inovacao-industrial/capitulo-5',
+    '/economia-inovacao-industrial/capitulo-6',
   ],
 };
 
@@ -29,6 +30,9 @@ const econometriaSidebar = {
     '/econometria/',
     '/econometria/aprendendo-r',
     '/econometria/notacoes',
+    '/econometria/conceitos-basicos',
+    '/econometria/aulas/aula-19.09',
+    '/econometria/aulas/aula-12.09',
     '/econometria/aulas/aula-05.09',
     '/econometria/aulas/aula-31.08',
     '/econometria/aulas/aula-29.08',

@@ -19,4 +19,7 @@ title: "Guia de notações e caracteres"
   - efeito de choques/programas em modelos diff 'n diff;
 - **$\gamma$ - gamma**
   - tendência em modelos diff 'n diff;
+  - variância da variável resposta em modelos.
 - **$\lambda$ - lambda**
+- **$\mu$ - mu (lê-se mi)
+  - média

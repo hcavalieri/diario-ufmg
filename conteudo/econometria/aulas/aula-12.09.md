@@ -171,3 +171,7 @@ Essa equação acima é equivalente à inicial. A partir dela, conseguimos estim
 Essa nova equação cria um resíduo auto-correlacionado ($E(v_t \, v_{t-1}) = 0$), mas isso não gera problema de inconsistência desde que você tenha uma exógena defasada (sei lá que que isso significa). O **problema dessa nova regressão** é que $\hat{\lambda} \nrightarrow \lambda$ (não sei que que isso significa). A saída para isso é estimar $v_t$ via 2SLS
 
 ----------
+
+::: danger Alerta
+O que copiei foi meia boca porque tava sem cabeça pra econometria nesse dia... tem bastante coisa faltando nessas anotações, e aparentemente coisas importantes!
+:::
