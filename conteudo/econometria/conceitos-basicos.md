@@ -8,7 +8,7 @@ title: Conceitos básicos de econometria
 
 ## Basicões
 
-### Matemática
+### Matemática / estatística
 
 - **Esperança**: a esperança de uma variável é seu valor esperado caso ela se repita várias vezes.
   - _Isso não quer dizer que a esperança é concretizada_! A realização de uma variável quase sempre vai ser diferente de sua esperança, mas esta ainda tem valor estatístico por ser o resultado das probabilidades de retorno desta variável.
@@ -18,8 +18,11 @@ title: Conceitos básicos de econometria
   - Representada pelo $\sigma^2$ ou por $V(x)$
 - **Co-variância**: Mede o grau de interdependência entre duas variáveis
   - Se variáveis forem independentes, seu valor é 0
-  - Se as variáveis são aleatórias, sua cô-variância é igual a $cov(X,Y) = E[(X - \mu_X)(Y - \mu_Y)]$
+  - Se as variáveis são aleatórias, sua co-variância é igual a $cov(X,Y) = E[(X - \mu_X)(Y - \mu_Y)]$
+  - Você também pode representar se existe co-variância ou não entre a e b com $E(a \; b)$ (vi isso na [parte de efeito fixo de dados em painel](/econometria/dados-painel.html#estimador-de-efeitos-fixos-within-mas-tambem-pode-ser-via-dummy))
+- **Desvio padrão**: quadrado da variância, ele mede a distância média da média
 - **Matrizes, LaGrange e vetores** não são fáceis de explicar resumidamente e muito menos de entender a fundo, mas só são fundamentais pra compreender os mecanismos dos modelos econométricos. Pra esse curso, a não ser que você queira trabalhar na área, tá de boa entender só a ideia central de cada uma dessas coisas.
+- **Distribuição qui-quadrado**: um tipo de distribuição que depende dos graus de liberdade e intervalo de confiança de uma série
 
 ### Econometria
 
@@ -45,10 +48,11 @@ title: Conceitos básicos de econometria
 - **Modelo MQO** (mínimos quadrados ordinários): busca chegar a estimadores que produzem o menor valor possível da soma dos quadrados dos erros (minimizar $\sum(\varepsilon^2$))
   - A econometria 1 trata bastante disso e minha pretensão não é tentar lembrar (na real, aprender) como se faz um MQO, só dar uma pincelada no assunto. Pra isso, tem um [videozinho curto bem massa](https://www.youtube.com/watch?v=NH7P81EoXDI) que cê pode fragar a base matemática disso.
   - Você precisa fazer uma série de ajustes à sua base pra conseguir rodar um MQO consistente, porque minimizar o erro por si só não é suficiente.
-- **_Pooled_** (_cross-section_): formato de uma base de dados com múltiplas observações no tempo, em que cada corte da população em um dado tempo _t_ pode ser (ou sempre é?) diferente de um corte no tempo _k_
+  - Por exemplo, se existe endogeneidade no modelo, seus estimadores vão ser totalmente inconsistentes!
+- **_Pooled_** (_cross-section_): formato de uma base de dados com múltiplas observações no tempo, em que aplicamos um MQO que desconsidera diferenças entre os indivíduos da amostra
   - Amostras são _independentes_
 - **Dados em painel**: ao contrário da _cross-section_, uma série com dados em painel acompanha um dado grupo fixo de indivíduos ao longo do tempo. Leia mais sobre [dados em painel aqui](/econometria/dados-painel.html)
-  - Amostras são dependentes e, por isso, precisamos de uma série de ferramentas pra lidar com as complexidades que isso traz.
+  - Amostras são _dependentes_ e, por isso, precisamos de uma série de ferramentas pra lidar com as complexidades que isso traz.
   - Esse trampo vale a pena, no entanto, porque essa informação individual é mais rica pra análise e estimações.
   - Nota: pode ser que seu painel não vai ser contínuo e alguns indivíduos vão sumir da amostra ao longo do tempo. Nesse caso, ao invés de desistir da estimação, você usa umas técnicas pra substituir esse indivíduo por outro parecido. O professor tocou nisso bem de leve e não vai investigar essa questão a fundo.
 
