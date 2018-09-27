@@ -31,6 +31,14 @@ const econometriaSidebar = {
     '/econometria/aprendendo-r',
     '/econometria/notacoes',
     '/econometria/conceitos-basicos',
+    '/econometria/dados-painel',
+  ]
+};
+
+const aulasEconometriaSidebar = {
+  title: 'Aulas Econometria',
+  collapsable: true,
+  children: [
     '/econometria/aulas/aula-19.09',
     '/econometria/aulas/aula-12.09',
     '/econometria/aulas/aula-05.09',
@@ -87,6 +95,7 @@ module.exports = {
     ],
     sidebar: [
       econometriaSidebar,
+      aulasEconometriaSidebar,
       inovacaoSidebar,
       monografiaSidebar,
     ]

@@ -56,7 +56,6 @@ title: Conceitos básicos de econometria
 
 - **Raíz unitária**: Por enquanto só sei que uma série não estacionária tem raíz unitária
 - **Homcedasticidade**: (pendente)
-- **Efeito aleatório**: (definição formal pendente)
 
 ## Ruído branco
 

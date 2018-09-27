@@ -12,7 +12,6 @@ Conforme eu for escrevendo, posso me referir à [folha de comandos do LaTex](htt
 - [ ] Séries temporais vs. dados em painel
 - [ ] Raíz unitária
 - [ ] Painéis co-integrados
-- [ ] Efeito aleatório
 - [ ] Significância, p-valor e o r
 - [ ] As relações do n com a consistência, vício e eficiência do modelo
 - [ ] As diferentes notações presentes nas equações que ele passa
