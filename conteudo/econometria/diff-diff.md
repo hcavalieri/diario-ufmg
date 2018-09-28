@@ -33,6 +33,16 @@ Representando graficamente, temos o seguinte:
 
 A reta azul representa o momento do choque. Ah, e não coloquei no gráfico, mas a distância da curva de controle (verde) pro eixo x é a constante de nível $\alpha$!
 
+Analisando a esperança de cada indivíduo no tempo, assumindo que o choque ocorre em t = 1, temos:
+
+- $E(Y_0^C) = \alpha$
+- $E(Y_1^C) = \alpha + \gamma$
+- $E(Y_0^T) = \alpha + \beta$
+- $E(Y_1^T) = \alpha + \beta + \gamma + \delta$ -> queremos descobrir o $\delta$
+  - Aqui a gente observa que tratamento recebe 2 novos parâmetros em $t_1$, mas a gente só quer 1 deles! A análise de diff 'n diff parte daqui
+
+**NOTA:** Em geral não nos preocupamos muito com efeito fixo na Diff 'n diff não: tanto $\alpha$ quanto $\beta$ vão ser removidas no efeito fixo e essas diferenças de níveis individuais vão ser achatadas. Claro, se você precisar estimar isso pra sua análise aí precisa de uma nova rota.
+
 ::: warning Atenção
 Claro que o viés de seleção pode se comportar de maneira menos óbvia e com maior variabilidade, com cada indivíduo do grupo de tratamento tendo seu próprio $\beta$, assim como esse _common trend_ do $\gamma$ pode ser único pra cada um e não presente da mesma forma pra T e C... Mas pra econometria II estamos lidando com a hipótese de que tudo isso é constante :wink:
 
@@ -41,4 +51,10 @@ Ah, e vale lembrar também que tem outros testes e ferramentas para além da Dif
 
 ## Como fazer a Diff 'n Diff
 
+Partindo das esperanças que vimos acima:
+
+- $\hat{\delta}_1 = Y^T_1 - Y^T_0$
+
 FALTOU TEMPO PRA COMPLETAR ESSE GUIA!
+
+Enfim, vamos fazer umas equações do estimador de $\delta$ pra cada tempo (antes e depois do choque) e combinar eles numa equação de diferenças em diferenças que faz a interação entre elas e chegamos a: $E(\hat{\delta}_{DD}) = \delta$ e isso é a base da Diff 'n Diff!
