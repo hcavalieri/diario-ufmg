@@ -32,6 +32,8 @@ const econometriaSidebar = {
     '/econometria/notacoes',
     '/econometria/conceitos-basicos',
     '/econometria/dados-painel',
+    '/econometria/paineis-dinamicos',
+    '/econometria/diff-diff',
   ]
 };
 

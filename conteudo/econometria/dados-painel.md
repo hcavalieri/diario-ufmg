@@ -106,7 +106,7 @@ Primeiro, a gente começa investigando a co-variância dos erros de um modelo _p
 
 Então, fazemos a **transformação RE (random error)**, que junta as seguintes equações:
 
-- $y_{it} = x_{it} + \alpha_i + \mu_{it}$
+- $y_{it} = x_{it} + \alpha_i + \mu_{it}$ (versão simplificada da equação)
 - $\lambda = 1 - \large{(\frac{\sigma^2_{\mu}}{T\sigma^2_\alpha + \alpha^2_\mu})^{\frac{1}{2}}}$
   - Esse lambda é um ponto central pro efeito aleatório: ele é um "ponderador" que adicionamos à equação pra testar a existência e relevância do efeito aleatório.
   - Quanto mais relevante for o $\alpha$, mais próximo lambda chega de 1, ponto em que precisamos necessariamente incluir o efeito aleatório na nossa análise.
@@ -138,9 +138,36 @@ Hipóteses:
 
 - **H0**: $\sigma^2_\alpha = 0$ -> pooled
 - **H1**: $\sigma^2_\alpha > 0$ -> E.A.
-- **Conclusões do teste**:
-  - Na real cê pode usar os dois, é uma questão de eficiência.
+  - Na real cê pode usar os dois em ambos os casos sem perda de consistência, a escolha é uma questão de eficiência.
 
 ## Sumário sobre qual modelo escolher
 
 ![](/econometria/diagrama-testes-painel.jpeg)
+
+- A gente começa tentando entender se **existe um efeito aleatório** ou não fazendo o teste de Hausman.
+  - Se não existe (se H0 for rejeitada), escolher um dos estimadores de efeito fixo, a saber:
+    - Você não quer usar dummies se n for muito grande pela dificuldade de se administrar isso;
+    - Você provavelmente não quer PD se n for pequeno porque a penalidade sobre os graus de liberdade é muito alta;
+    - Muito provavelmente o efeito fixo vai ser o estimador mais eficiente, mas só o teste dirá.
+- Se existir efeito aleatório, precisamos verificar a relevância do erro não observável ($\alpha_i$) para o modelo através do teste L.M. (ou Breusch-Pagan) com o ponderador $\bold{\lambda}$.
+  - Se H0 for rejeitada, é sinal que alfa é relevante e, portanto, não podemos excluí-lo do modelo. Precisamos, então, usar o estimador de efeito aleatório ou GLS
+  - Caso contrário, é sinal que o erro não observável é negligenciável e podemos jogar tudo num MQO _pooled_, que é mais "magro" e menos inchado de cercamentos e estimadores que o EA (que se protege de coisa demais) e, por isso, tem uma variância menor e uma maior eficiência.
+
+::: warning Atenção
+Vale lembrar que seus objetivos com o modelo influenciam nessa escolha também, não é uma ciência 100% exata: caso você queira medir esse erro não observável, o _pooled_ e efeito fixo não vão prestar porque eliminam esse termo das estimativas.
+:::
+
+**É isso!** Mais fácil impossível :stuck_out_tongue_closed_eyes:
+
+## Adendo: Variáveis fixas no tempo
+
+A princípio, variáveis fixas no tempo são removidas em todos esses estimadores, mas as vezes queremos avaliar seu efeito na variável resposta.
+
+**Passo 1:**
+
+- $y_{it} = \beta_0 + x_{it}\beta + \alpha_i + \mu_{it}$
+- Substituindo $x_{it} = (w_{it} + z_i)$, onde _z_ é a variável fixa no tempo que ajuda a explicar _x_ e _w_ é, bem, o resto
+- Temos: $y_{it} = \beta_0 + \beta_1w_{it} + \beta_2z_i + \alpha_i + \mu_it$
+- $\lambda = $y_{it} - \beta_0 - \beta_1w_{it} - \mu_it$
+  - Não sei de onde veio esse lambda!
+- Estimamos $\hat{\lambda}_i$ por efeito fixo e chegamos a $\hat{\lambda}_i
