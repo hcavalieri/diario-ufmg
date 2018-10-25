@@ -9,6 +9,7 @@ const inovacaoSidebar = {
     '/economia-inovacao-industrial/capitulo-4',
     '/economia-inovacao-industrial/capitulo-5',
     '/economia-inovacao-industrial/capitulo-6',
+    '/economia-inovacao-industrial/capitulo-10',
   ],
 };
 
@@ -20,6 +21,7 @@ const monografiaSidebar = {
     '/monografia/diario',
     '/monografia/bibliografia',
     '/monografia/tpe',
+    '/monografia/problema-hipoteses',
   ]
 };
 
